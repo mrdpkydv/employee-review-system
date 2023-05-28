@@ -4,6 +4,7 @@ const app = express();
 
 // _______cookie-parser middleware to handle cookies________//
 const cookieParser = require('cookie-parser');
+"start": "nodemon index",
 
 //___________________layout of ejs_________________________//
 const expressLayouts = require('express-ejs-layouts');
